@@ -7,6 +7,8 @@ print("Simple program to display Merry Christmas on a 16x16 colourful display")
 # R G R G R G
 # G R G R G R
 
+def drawStocking():
+    
 
 def banner(row, col):
 
