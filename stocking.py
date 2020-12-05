@@ -19,6 +19,8 @@ def draw():
     # Set the rotation of the display
     unicornhathd.rotation(270)
 
+    time.sleep(0.5)
+
     unicornhathd.set_pixel(4, 14, 255, 255, 255)
     unicornhathd.set_pixel(5, 14, 255, 255, 255)
     unicornhathd.set_pixel(6, 14, 255, 255, 255)

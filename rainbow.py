@@ -28,7 +28,7 @@ def draw(text):
     # Set the rotation of the display
     unicornhathd.rotation(90)
 
-    time.sleep(2)
+    time.sleep(0.5)
 
     # We want to draw our text 1 pixel in, and 2 pixels down from the top left corner
     text_x = 1

@@ -18,6 +18,8 @@ def draw():
     # Set the rotation of the display
     unicornhathd.rotation(270)
 
+    time.sleep(0.5)
+
     # Tree trunk
     unicornhathd.set_pixel(7, 1, 139, 69, 19)
     unicornhathd.set_pixel(8, 1, 139, 69, 19)
