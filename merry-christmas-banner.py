@@ -4,6 +4,7 @@
 import stocking
 import rainbow
 import tree
+import present
 import unicornhathd
 import signal
 
@@ -27,3 +28,4 @@ while True:
     rainbow.draw(MARIA)
     stocking.draw()
     rainbow.draw(OWEN)
+    present.draw()
