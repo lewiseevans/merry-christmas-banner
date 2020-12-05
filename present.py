@@ -20,8 +20,8 @@ def draw():
     time.sleep(0.5)
 
     drawPurpleRow(2)
-    drawPurpleRow(2)
     drawPurpleRow(3)
+    drawPurpleRow(4)
     drawPurpleRow(5)
     drawBlueRow(6)
     drawBlueRow(7)
