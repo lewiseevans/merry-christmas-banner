@@ -27,6 +27,25 @@ def draw():
     # Bottom row baubles
     unicornhathd.set_pixel(4, 2, 51, 0, 101)
     unicornhathd.set_pixel(6, 2, 0, 51, 51)
+    unicornhathd.set_pixel(9, 2, 255, 0, 0)
+    unicornhathd.set_pixel(11, 2, 255, 255, 0)
+
+    # Bottom tree rows
+    unicornhathd.set_pixel(4, 3, 0, 255, 0)
+    unicornhathd.set_pixel(5, 3, 0, 255, 0)
+    unicornhathd.set_pixel(6, 3, 0, 255, 0)
+    unicornhathd.set_pixel(7, 3, 0, 255, 0)
+    unicornhathd.set_pixel(8, 3, 0, 255, 0)
+    unicornhathd.set_pixel(9, 3, 0, 255, 0)
+    unicornhathd.set_pixel(10, 3, 0, 255, 0)
+    unicornhathd.set_pixel(11, 3, 0, 255, 0)
+
+    unicornhathd.set_pixel(5, 4, 0, 255, 0)
+    unicornhathd.set_pixel(6, 4, 0, 255, 0)
+    unicornhathd.set_pixel(7, 4, 0, 0, 255)
+    unicornhathd.set_pixel(8, 4, 0, 255, 0)
+    unicornhathd.set_pixel(9, 4, 0, 255, 0)
+    unicornhathd.set_pixel(10, 4, 0, 255, 0)
 
     # Show the image
     unicornhathd.show()
