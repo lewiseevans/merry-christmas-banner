@@ -2,7 +2,7 @@
 
 import colorsys
 import time
-from sys import exit
+import sys
 
 try:
     from PIL import Image, ImageDraw, ImageFont
@@ -20,7 +20,6 @@ def shutdown_handler(sig, frame):
 
 
 signal.signal(signal.SIGINT, shutdown_handler)
-signal.pause()
 
 # Get the width and height of the display
 width, height = unicornhathd.get_shape()
