@@ -52,10 +52,28 @@ def draw():
     unicornhathd.set_pixel(8, 5, 0, 255, 0)
     unicornhathd.set_pixel(9, 5, 0, 255, 0)
 
-    unicornhathd.set_pixel(5, 5, 102, 0, 204)
-    unicornhathd.set_pixel(7, 5, 0, 255, 0)
-    unicornhathd.set_pixel(8, 5, 0, 255, 0)
-    unicornhathd.set_pixel(10, 5, 0, 0, 255)
+    unicornhathd.set_pixel(5, 6, 102, 0, 204)
+    unicornhathd.set_pixel(7, 6, 0, 255, 0)
+    unicornhathd.set_pixel(8, 6, 0, 255, 0)
+    unicornhathd.set_pixel(10, 6, 0, 0, 255)
+
+    # Middle tree portion
+    unicornhathd.set_pixel(5, 7, 0, 255, 0)
+    unicornhathd.set_pixel(6, 7, 0, 255, 0)
+    unicornhathd.set_pixel(7, 7, 51, 0, 101)
+    unicornhathd.set_pixel(8, 7, 0, 0, 0)
+    unicornhathd.set_pixel(9, 7, 0, 255, 0)
+    unicornhathd.set_pixel(10, 7, 0, 255, 0)
+
+    unicornhathd.set_pixel(6, 8, 0, 255, 0)
+    unicornhathd.set_pixel(7, 8, 0, 255, 0)
+    unicornhathd.set_pixel(8, 8, 0, 255, 0)
+    unicornhathd.set_pixel(9, 8, 0, 255, 0)
+
+    unicornhathd.set_pixel(6, 9, 255, 255, 0)
+    unicornhathd.set_pixel(7, 9, 0, 255, 0)
+    unicornhathd.set_pixel(8, 9, 0, 255, 0)
+    unicornhathd.set_pixel(9, 9, 255, 0, 0)
 
     # Show the image
     unicornhathd.show()
