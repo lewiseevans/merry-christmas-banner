@@ -3,11 +3,9 @@
 import unicornhathd
 import time
 
+
 # Get the width and height of the display
 width, height = unicornhathd.get_shape()
-
-# Set the rotation of the display
-unicornhathd.rotation(270)
 
 
 def draw():
@@ -17,6 +15,9 @@ def draw():
 
     # Clear the buffer
     unicornhathd.clear()
+
+    # Set the rotation of the display
+    unicornhathd.rotation(270)
 
     unicornhathd.set_pixel(4, 14, 255, 255, 255)
     unicornhathd.set_pixel(5, 14, 255, 255, 255)

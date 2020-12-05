@@ -10,12 +10,8 @@ try:
 except ImportError:
     exit('This script requires the pillow module\nInstall with: sudo pip install pillow')
 
-
 # Get the width and height of the display
 width, height = unicornhathd.get_shape()
-
-# Set the rotation of the display
-unicornhathd.rotation(270)
 
 # Select font and size
 FONT = ('/usr/share/fonts/truetype/freefont/FreeSansBold.ttf', 10)
@@ -28,6 +24,9 @@ def draw(text):
 
     # Clear the buffer
     unicornhathd.clear()
+
+    # Set the rotation of the display
+    unicornhathd.rotation(90)
 
     time.sleep(2)
 
