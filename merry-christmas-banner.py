@@ -10,6 +10,13 @@ except ImportError:
     exit('This script requires the pillow module\nInstall with: sudo pip install pillow')
 
 import unicornhathd
+import signal
+
+
+def shutdown_handler(sig, frame):
+    print('Shutting down')
+    unicornhathd.off()
+
 
 # Get the width and height of the display
 width, height = unicornhathd.get_shape()
@@ -101,6 +108,8 @@ def rainbowBanner(text):
         # And sleep for a little bit, so it doesn't scroll too quickly!
         time.sleep(0.04)
 
+
+signal.signal(signal.SIGINT, shutdown_handler)
 
 THEO = 'Merry Christmas Theo!'
 MARIA = 'Merry Christmas Maria!'
