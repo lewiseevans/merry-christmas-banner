@@ -22,8 +22,8 @@ MARIA = 'Merry Christmas Maria!'
 OWEN = 'Merry Christmas Owen!'
 
 while True:
-    stocking.draw()
-    rainbow.draw(THEO)
+    # stocking.draw()
+    # rainbow.draw(THEO)
     tree.draw()
-    rainbow.draw(MARIA)
-    rainbow.draw(OWEN)
+    # rainbow.draw(MARIA)
+    # rainbow.draw(OWEN)
