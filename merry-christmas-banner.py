@@ -13,14 +13,6 @@ import unicornhathd
 import signal
 
 
-def shutdown_handler(sig, frame):
-    print('Shutting down')
-    unicornhathd.off()
-    sys.exit(0)
-
-
-signal.signal(signal.SIGINT, shutdown_handler)
-
 # Get the width and height of the display
 width, height = unicornhathd.get_shape()
 
@@ -31,7 +23,38 @@ unicornhathd.rotation(90)
 FONT = ('/usr/share/fonts/truetype/freefont/FreeSansBold.ttf', 10)
 
 
+def shutdownHandler(sig, frame):
+    print('Shutting down')
+    unicornhathd.off()
+    sys.exit(0)
+
+
+signal.signal(signal.SIGINT, shutdownHandler)
+
+
+def drawStocking():
+
+    # Clear the display
+    unicornhathd.off()
+
+    # Clear the buffer
+    unicornhathd.clear()
+
+    unicornhathd.set_pixel(5, 2, 255, 255, 255)
+
+    unicornhathd.show()
+
+    time.sleep(5)
+
+
 def rainbowBanner(text):
+
+    # Clear the display
+    unicornhathd.off()
+
+    # Clear the buffer
+    unicornhathd.clear()
+
     # We want to draw our text 1 pixel in, and 2 pixels down from the top left corner
     text_x = 1
     text_y = 2
@@ -117,6 +140,7 @@ MARIA = 'Merry Christmas Maria!'
 OWEN = 'Merry Christmas Owen!'
 
 while True:
+    drawStocking()
     rainbowBanner(THEO)
     rainbowBanner(MARIA)
     rainbowBanner(OWEN)
