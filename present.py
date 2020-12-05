@@ -36,16 +36,16 @@ def draw():
 
 
 def drawBow():
-    unicornhathd.set_pixel(3, 12, 102, 0, 204)
-    unicornhathd.set_pixel(4, 12, 102, 0, 204)
-    unicornhathd.set_pixel(5, 12, 102, 0, 204)
-    unicornhathd.set_pixel(6, 12, 102, 0, 204)
-    unicornhathd.set_pixel(7, 12, 102, 0, 204)
-    unicornhathd.set_pixel(8, 12, 102, 0, 204)
-    unicornhathd.set_pixel(9, 12, 102, 0, 204)
-    unicornhathd.set_pixel(10, 12, 102, 0, 204)
-    unicornhathd.set_pixel(11, 12, 102, 0, 204)
-    unicornhathd.set_pixel(12, 12, 102, 0, 204)
+    unicornhathd.set_pixel(3, 12, 255, 0, 0)
+    unicornhathd.set_pixel(4, 12, 255, 0, 0)
+    unicornhathd.set_pixel(5, 12, 255, 0, 0)
+    unicornhathd.set_pixel(6, 12, 255, 0, 0)
+    unicornhathd.set_pixel(7, 12, 255, 0, 0)
+    unicornhathd.set_pixel(8, 12, 255, 0, 0)
+    unicornhathd.set_pixel(9, 12, 255, 0, 0)
+    unicornhathd.set_pixel(10, 12, 255, 0, 0)
+    unicornhathd.set_pixel(11, 12, 255, 0, 0)
+    unicornhathd.set_pixel(12, 12, 255, 0, 0)
 
 
 def drawBlueRow(y):
@@ -64,15 +64,15 @@ def drawBlueRow(y):
 
 
 def drawPurpleRow(y):
-    unicornhathd.set_pixel(2, y, 102, 0, 204)
-    unicornhathd.set_pixel(3, y, 102, 0, 204)
-    unicornhathd.set_pixel(4, y, 102, 0, 204)
-    unicornhathd.set_pixel(5, y, 102, 0, 204)
-    unicornhathd.set_pixel(6, y, 102, 0, 204)
+    unicornhathd.set_pixel(2, y, 255, 0, 0)
+    unicornhathd.set_pixel(3, y, 255, 0, 0)
+    unicornhathd.set_pixel(4, y, 255, 0, 0)
+    unicornhathd.set_pixel(5, y, 255, 0, 0)
+    unicornhathd.set_pixel(6, y, 255, 0, 0)
     unicornhathd.set_pixel(7, y, 0, 0, 255)
     unicornhathd.set_pixel(8, y, 0, 0, 255)
-    unicornhathd.set_pixel(9, y, 102, 0, 204)
-    unicornhathd.set_pixel(10, y, 102, 0, 204)
-    unicornhathd.set_pixel(11, y, 102, 0, 204)
-    unicornhathd.set_pixel(12, y, 102, 0, 204)
-    unicornhathd.set_pixel(13, y, 102, 0, 204)
+    unicornhathd.set_pixel(9, y, 255, 0, 0)
+    unicornhathd.set_pixel(10, y, 255, 0, 0)
+    unicornhathd.set_pixel(11, y, 255, 0, 0)
+    unicornhathd.set_pixel(12, y, 255, 0, 0)
+    unicornhathd.set_pixel(13, y, 255, 0, 0)
