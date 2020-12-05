@@ -47,6 +47,16 @@ def draw():
     unicornhathd.set_pixel(9, 4, 0, 255, 0)
     unicornhathd.set_pixel(10, 4, 0, 255, 0)
 
+    unicornhathd.set_pixel(6, 5, 0, 255, 0)
+    unicornhathd.set_pixel(7, 5, 0, 255, 0)
+    unicornhathd.set_pixel(8, 5, 0, 255, 0)
+    unicornhathd.set_pixel(9, 5, 0, 255, 0)
+
+    unicornhathd.set_pixel(5, 5, 102, 0, 204)
+    unicornhathd.set_pixel(7, 5, 0, 255, 0)
+    unicornhathd.set_pixel(8, 5, 0, 255, 0)
+    unicornhathd.set_pixel(10, 5, 0, 0, 255)
+
     # Show the image
     unicornhathd.show()
 
