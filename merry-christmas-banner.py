@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
 
-import stocking.py as stocking
-import rainbow.py as rainbow
-import tree.py as tree
+from stocking import draw as drawStocking
+#import rainbow.py as rainbow
+#import tree.py as tree
 import unicornhathd
 import signal
 
@@ -22,8 +22,8 @@ MARIA = 'Merry Christmas Maria!'
 OWEN = 'Merry Christmas Owen!'
 
 while True:
-    stocking.drawStocking()
-    rainbow.draw(THEO)
-    tree.draw()
-    rainbow.draw(MARIA)
-    rainbow.draw(OWEN)
+    drawStocking()
+    # rainbow.draw(THEO)
+    # tree.draw()
+    # rainbow.draw(MARIA)
+    # rainbow.draw(OWEN)
