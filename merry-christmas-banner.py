@@ -41,6 +41,27 @@ def drawStocking():
     unicornhathd.clear()
 
     unicornhathd.set_pixel(5, 2, 255, 255, 255)
+    unicornhathd.set_pixel(6, 2, 255, 255, 255)
+    unicornhathd.set_pixel(7, 2, 255, 255, 255)
+    unicornhathd.set_pixel(8, 2, 255, 255, 255)
+    unicornhathd.set_pixel(9, 2, 255, 255, 255)
+    unicornhathd.set_pixel(10, 2, 255, 255, 255)
+    unicornhathd.set_pixel(11, 2, 255, 255, 255)
+    unicornhathd.set_pixel(12, 2, 255, 255, 255)
+    unicornhathd.set_pixel(5, 3, 255, 255, 255)
+    unicornhathd.set_pixel(6, 3, 255, 255, 255)
+    unicornhathd.set_pixel(7, 3, 255, 255, 255)
+    unicornhathd.set_pixel(8, 3, 255, 255, 255)
+    unicornhathd.set_pixel(9, 3, 255, 255, 255)
+    unicornhathd.set_pixel(10, 3, 255, 255, 255)
+    unicornhathd.set_pixel(11, 3, 255, 255, 255)
+    unicornhathd.set_pixel(12, 3, 255, 255, 255)
+    unicornhathd.set_pixel(6, 4, 255, 0, 0)
+    unicornhathd.set_pixel(7, 4, 255, 0, 0)
+    unicornhathd.set_pixel(8, 4, 255, 0, 0)
+    unicornhathd.set_pixel(9, 4, 255, 0, 0)
+    unicornhathd.set_pixel(10, 4, 255, 0, 0)
+    unicornhathd.set_pixel(11, 4, 255, 0, 0)
 
     unicornhathd.show()
 
@@ -141,6 +162,6 @@ OWEN = 'Merry Christmas Owen!'
 
 while True:
     drawStocking()
-    rainbowBanner(THEO)
-    rainbowBanner(MARIA)
-    rainbowBanner(OWEN)
+    # rainbowBanner(THEO)
+    # rainbowBanner(MARIA)
+    # rainbowBanner(OWEN)
