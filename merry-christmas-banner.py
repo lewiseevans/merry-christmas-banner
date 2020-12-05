@@ -16,7 +16,11 @@ import signal
 def shutdown_handler(sig, frame):
     print('Shutting down')
     unicornhathd.off()
+    sys.exit(0)
 
+
+signal.signal(signal.SIGINT, shutdown_handler)
+signal.pause()
 
 # Get the width and height of the display
 width, height = unicornhathd.get_shape()
@@ -109,8 +113,6 @@ def rainbowBanner(text):
         time.sleep(0.04)
 
 
-signal.signal(signal.SIGINT, shutdown_handler)
-
 THEO = 'Merry Christmas Theo!'
 MARIA = 'Merry Christmas Maria!'
 OWEN = 'Merry Christmas Owen!'
@@ -119,5 +121,3 @@ while True:
     rainbowBanner(THEO)
     rainbowBanner(MARIA)
     rainbowBanner(OWEN)
-
-signal.pause()
