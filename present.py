@@ -30,22 +30,38 @@ def draw():
     drawPurpleRow(10)
     drawPurpleRow(11)
 
+    drawBow()
+
     unicornhathd.show()
 
     time.sleep(5)
 
 
 def drawBow():
-    unicornhathd.set_pixel(3, 12, 255, 0, 0)
-    unicornhathd.set_pixel(4, 12, 255, 0, 0)
-    unicornhathd.set_pixel(5, 12, 255, 0, 0)
-    unicornhathd.set_pixel(6, 12, 255, 0, 0)
-    unicornhathd.set_pixel(7, 12, 255, 0, 0)
-    unicornhathd.set_pixel(8, 12, 255, 0, 0)
-    unicornhathd.set_pixel(9, 12, 255, 0, 0)
-    unicornhathd.set_pixel(10, 12, 255, 0, 0)
-    unicornhathd.set_pixel(11, 12, 255, 0, 0)
-    unicornhathd.set_pixel(12, 12, 255, 0, 0)
+    unicornhathd.set_pixel(3, 12, 0, 0, 255)
+    unicornhathd.set_pixel(4, 12, 0, 0, 255)
+    unicornhathd.set_pixel(5, 12, 0, 0, 255)
+    unicornhathd.set_pixel(6, 12, 0, 0, 255)
+    unicornhathd.set_pixel(7, 12, 0, 0, 255)
+    unicornhathd.set_pixel(8, 12, 0, 0, 255)
+    unicornhathd.set_pixel(9, 12, 0, 0, 255)
+    unicornhathd.set_pixel(10, 12, 0, 0, 255)
+    unicornhathd.set_pixel(11, 12, 0, 0, 255)
+    unicornhathd.set_pixel(12, 12, 0, 0, 255)
+
+    unicornhathd.set_pixel(3, 13, 0, 0, 255)
+    unicornhathd.set_pixel(6, 13, 0, 0, 255)
+    unicornhathd.set_pixel(9, 13, 0, 0, 255)
+    unicornhathd.set_pixel(12, 13, 0, 0, 255)
+
+    unicornhathd.set_pixel(3, 14, 0, 0, 255)
+    unicornhathd.set_pixel(4, 14, 0, 0, 255)
+    unicornhathd.set_pixel(5, 14, 0, 0, 255)
+    unicornhathd.set_pixel(6, 14, 0, 0, 255)
+    unicornhathd.set_pixel(9, 14, 0, 0, 255)
+    unicornhathd.set_pixel(10, 14, 0, 0, 255)
+    unicornhathd.set_pixel(11, 14, 0, 0, 255)
+    unicornhathd.set_pixel(12, 14, 0, 0, 255)
 
 
 def drawBlueRow(y):
