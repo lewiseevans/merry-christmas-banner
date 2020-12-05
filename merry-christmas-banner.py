@@ -18,6 +18,7 @@ TEXT = 'Merry Christmas Theo! Merry Christmas Maria! Merry Christmas Owen!'
 FONT = ('/usr/share/fonts/truetype/freefont/FreeSansBold.ttf', 12)
 
 width, height = unicornhathd.get_shape()
+unicornhathd.rotation(90)
 
 text_x = 1
 text_y = 2
