@@ -119,3 +119,5 @@ while True:
     rainbowBanner(THEO)
     rainbowBanner(MARIA)
     rainbowBanner(OWEN)
+
+signal.pause()
