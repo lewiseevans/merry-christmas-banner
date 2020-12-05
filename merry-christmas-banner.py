@@ -17,7 +17,7 @@ import signal
 width, height = unicornhathd.get_shape()
 
 # Set the rotation of the display
-unicornhathd.rotation(90)
+unicornhathd.rotation(270)
 
 # Select font and size
 FONT = ('/usr/share/fonts/truetype/freefont/FreeSansBold.ttf', 10)
