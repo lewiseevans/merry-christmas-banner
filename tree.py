@@ -61,7 +61,7 @@ def draw():
     unicornhathd.set_pixel(5, 7, 0, 255, 0)
     unicornhathd.set_pixel(6, 7, 0, 255, 0)
     unicornhathd.set_pixel(7, 7, 51, 0, 101)
-    unicornhathd.set_pixel(8, 7, 0, 0, 0)
+    unicornhathd.set_pixel(8, 7, 0, 255, 0)
     unicornhathd.set_pixel(9, 7, 0, 255, 0)
     unicornhathd.set_pixel(10, 7, 0, 255, 0)
 
@@ -74,6 +74,26 @@ def draw():
     unicornhathd.set_pixel(7, 9, 0, 255, 0)
     unicornhathd.set_pixel(8, 9, 0, 255, 0)
     unicornhathd.set_pixel(9, 9, 255, 0, 0)
+
+    # Top tree portion
+
+    unicornhathd.set_pixel(6, 10, 0, 255, 0)
+    unicornhathd.set_pixel(7, 10, 0, 255, 0)
+    unicornhathd.set_pixel(8, 10, 0, 255, 0)
+    unicornhathd.set_pixel(9, 10, 0, 255, 0)
+
+    unicornhathd.set_pixel(6, 11, 0, 255, 0)
+    unicornhathd.set_pixel(7, 11, 0, 255, 0)
+    unicornhathd.set_pixel(8, 11, 0, 255, 0)
+    unicornhathd.set_pixel(9, 11, 0, 255, 0)
+
+    # Star
+
+    unicornhathd.set_pixel(7, 12, 255, 255, 0)
+    unicornhathd.set_pixel(8, 12, 255, 255, 0)
+    unicornhathd.set_pixel(7, 13, 255, 255, 0)
+    unicornhathd.set_pixel(8, 13, 255, 255, 0)
+    
 
     # Show the image
     unicornhathd.show()
