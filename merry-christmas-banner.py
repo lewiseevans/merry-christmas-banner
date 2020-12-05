@@ -4,6 +4,7 @@
 import stocking
 import rainbow
 import tree
+import santa
 import present
 import unicornhathd
 import signal
@@ -23,6 +24,7 @@ MARIA = 'Merry Christmas Maria!'
 OWEN = 'Merry Christmas Owen!'
 
 while True:
+    santa.draw()
     rainbow.draw(THEO)
     tree.draw()
     rainbow.draw(MARIA)
