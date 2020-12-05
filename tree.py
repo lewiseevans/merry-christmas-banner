@@ -82,10 +82,8 @@ def draw():
     unicornhathd.set_pixel(8, 10, 0, 255, 0)
     unicornhathd.set_pixel(9, 10, 0, 255, 0)
 
-    unicornhathd.set_pixel(6, 11, 0, 255, 0)
     unicornhathd.set_pixel(7, 11, 0, 255, 0)
     unicornhathd.set_pixel(8, 11, 0, 255, 0)
-    unicornhathd.set_pixel(9, 11, 0, 255, 0)
 
     # Star
 
@@ -93,7 +91,6 @@ def draw():
     unicornhathd.set_pixel(8, 12, 255, 255, 0)
     unicornhathd.set_pixel(7, 13, 255, 255, 0)
     unicornhathd.set_pixel(8, 13, 255, 255, 0)
-    
 
     # Show the image
     unicornhathd.show()
