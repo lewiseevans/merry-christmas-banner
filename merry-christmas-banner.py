@@ -15,7 +15,7 @@ print("Simple program to display Merry Christmas on a 16x16 colourful display")
 
 TEXT = 'Merry Christmas Theo! Merry Christmas Maria! Merry Christmas Owen!'
 
-FONT = ('/usr/share/fonts/truetype/freefont/FreeSansBold.ttf', 12)
+FONT = ('/usr/share/fonts/truetype/freefont/FreeSansBold.ttf', 10)
 
 width, height = unicornhathd.get_shape()
 unicornhathd.rotation(90)
