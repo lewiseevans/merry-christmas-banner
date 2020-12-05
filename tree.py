@@ -10,7 +10,7 @@ width, height = unicornhathd.get_shape()
 unicornhathd.rotation(270)
 
 
-def drawTree():
+def draw():
 
     # Clear the display
     unicornhathd.off()
